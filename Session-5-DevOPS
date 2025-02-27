@@ -1,0 +1,34 @@
+
+
+Continuos Integration: CI
+
+CI --> Checkout --> Compile --> Package --> StoreSomewhere/Artifact 
+
+
+####
+
+5 Scripts are written diff programing languages --> 5 diff servers am running 
+
+Jenkins
+
+Single Job for all 5 Scripts --> it can run in parallel/Sequentially in all the servers [ 5]
+############ Commands Used today
+
+hostname       ## to Print the hostname of the container/vm
+
+docker ps       ## to display the docker processes
+
+docker exec -it <containerid> bash  ## To login in to inside container
+
+## To Install the Maven
+
+apt update    [ if its not alreay ran]
+apt install maven
+
+
+###################################
+Tasks for Session 4:
+
+##################################
+
+1. Install the maven using above commands in your vm/system
